@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56C0A5401D0B5B130098A6BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C0A53F1D0B5B130098A6BE /* AppDelegate.swift */; };
+		56C0A5421D0B5B130098A6BE /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C0A5411D0B5B130098A6BE /* FirstViewController.swift */; };
+		56C0A5441D0B5B130098A6BE /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C0A5431D0B5B130098A6BE /* SecondViewController.swift */; };
+		56C0A5471D0B5B130098A6BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56C0A5451D0B5B130098A6BE /* Main.storyboard */; };
+		56C0A5491D0B5B130098A6BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56C0A5481D0B5B130098A6BE /* Assets.xcassets */; };
+		56C0A54C1D0B5B130098A6BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56C0A54A1D0B5B130098A6BE /* LaunchScreen.storyboard */; };
+		56C0A5571D0B5B130098A6BE /* EniAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C0A5561D0B5B130098A6BE /* EniAppTests.swift */; };
+		56C0A5621D0B5B130098A6BE /* EniAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C0A5611D0B5B130098A6BE /* EniAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		56C0A5531D0B5B130098A6BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56C0A5341D0B5B130098A6BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56C0A53B1D0B5B130098A6BE;
+			remoteInfo = EniApp;
+		};
+		56C0A55E1D0B5B130098A6BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56C0A5341D0B5B130098A6BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56C0A53B1D0B5B130098A6BE;
+			remoteInfo = EniApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		56C0A53C1D0B5B130098A6BE /* EniApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EniApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56C0A53F1D0B5B130098A6BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		56C0A5411D0B5B130098A6BE /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		56C0A5431D0B5B130098A6BE /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		56C0A5461D0B5B130098A6BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		56C0A5481D0B5B130098A6BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56C0A54B1D0B5B130098A6BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		56C0A54D1D0B5B130098A6BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56C0A5521D0B5B130098A6BE /* EniAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EniAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		56C0A5561D0B5B130098A6BE /* EniAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EniAppTests.swift; sourceTree = "<group>"; };
+		56C0A5581D0B5B130098A6BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56C0A55D1D0B5B130098A6BE /* EniAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EniAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		56C0A5611D0B5B130098A6BE /* EniAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EniAppUITests.swift; sourceTree = "<group>"; };
+		56C0A5631D0B5B130098A6BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56C0A5391D0B5B130098A6BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56C0A54F1D0B5B130098A6BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56C0A55A1D0B5B130098A6BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56C0A5331D0B5B130098A6BE = {
+			isa = PBXGroup;
+			children = (
+				56C0A53E1D0B5B130098A6BE /* EniApp */,
+				56C0A5551D0B5B130098A6BE /* EniAppTests */,
+				56C0A5601D0B5B130098A6BE /* EniAppUITests */,
+				56C0A53D1D0B5B130098A6BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		56C0A53D1D0B5B130098A6BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56C0A53C1D0B5B130098A6BE /* EniApp.app */,
+				56C0A5521D0B5B130098A6BE /* EniAppTests.xctest */,
+				56C0A55D1D0B5B130098A6BE /* EniAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56C0A53E1D0B5B130098A6BE /* EniApp */ = {
+			isa = PBXGroup;
+			children = (
+				56C0A53F1D0B5B130098A6BE /* AppDelegate.swift */,
+				56C0A5411D0B5B130098A6BE /* FirstViewController.swift */,
+				56C0A5431D0B5B130098A6BE /* SecondViewController.swift */,
+				56C0A5451D0B5B130098A6BE /* Main.storyboard */,
+				56C0A5481D0B5B130098A6BE /* Assets.xcassets */,
+				56C0A54A1D0B5B130098A6BE /* LaunchScreen.storyboard */,
+				56C0A54D1D0B5B130098A6BE /* Info.plist */,
+			);
+			path = EniApp;
+			sourceTree = "<group>";
+		};
+		56C0A5551D0B5B130098A6BE /* EniAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				56C0A5561D0B5B130098A6BE /* EniAppTests.swift */,
+				56C0A5581D0B5B130098A6BE /* Info.plist */,
+			);
+			path = EniAppTests;
+			sourceTree = "<group>";
+		};
+		56C0A5601D0B5B130098A6BE /* EniAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				56C0A5611D0B5B130098A6BE /* EniAppUITests.swift */,
+				56C0A5631D0B5B130098A6BE /* Info.plist */,
+			);
+			path = EniAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56C0A53B1D0B5B130098A6BE /* EniApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56C0A5661D0B5B130098A6BE /* Build configuration list for PBXNativeTarget "EniApp" */;
+			buildPhases = (
+				56C0A5381D0B5B130098A6BE /* Sources */,
+				56C0A5391D0B5B130098A6BE /* Frameworks */,
+				56C0A53A1D0B5B130098A6BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EniApp;
+			productName = EniApp;
+			productReference = 56C0A53C1D0B5B130098A6BE /* EniApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		56C0A5511D0B5B130098A6BE /* EniAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56C0A5691D0B5B130098A6BE /* Build configuration list for PBXNativeTarget "EniAppTests" */;
+			buildPhases = (
+				56C0A54E1D0B5B130098A6BE /* Sources */,
+				56C0A54F1D0B5B130098A6BE /* Frameworks */,
+				56C0A5501D0B5B130098A6BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56C0A5541D0B5B130098A6BE /* PBXTargetDependency */,
+			);
+			name = EniAppTests;
+			productName = EniAppTests;
+			productReference = 56C0A5521D0B5B130098A6BE /* EniAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		56C0A55C1D0B5B130098A6BE /* EniAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56C0A56C1D0B5B130098A6BE /* Build configuration list for PBXNativeTarget "EniAppUITests" */;
+			buildPhases = (
+				56C0A5591D0B5B130098A6BE /* Sources */,
+				56C0A55A1D0B5B130098A6BE /* Frameworks */,
+				56C0A55B1D0B5B130098A6BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56C0A55F1D0B5B130098A6BE /* PBXTargetDependency */,
+			);
+			name = EniAppUITests;
+			productName = EniAppUITests;
+			productReference = 56C0A55D1D0B5B130098A6BE /* EniAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56C0A5341D0B5B130098A6BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "vamsi acharya";
+				TargetAttributes = {
+					56C0A53B1D0B5B130098A6BE = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					56C0A5511D0B5B130098A6BE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 56C0A53B1D0B5B130098A6BE;
+					};
+					56C0A55C1D0B5B130098A6BE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 56C0A53B1D0B5B130098A6BE;
+					};
+				};
+			};
+			buildConfigurationList = 56C0A5371D0B5B130098A6BE /* Build configuration list for PBXProject "EniApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56C0A5331D0B5B130098A6BE;
+			productRefGroup = 56C0A53D1D0B5B130098A6BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56C0A53B1D0B5B130098A6BE /* EniApp */,
+				56C0A5511D0B5B130098A6BE /* EniAppTests */,
+				56C0A55C1D0B5B130098A6BE /* EniAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56C0A53A1D0B5B130098A6BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56C0A54C1D0B5B130098A6BE /* LaunchScreen.storyboard in Resources */,
+				56C0A5491D0B5B130098A6BE /* Assets.xcassets in Resources */,
+				56C0A5471D0B5B130098A6BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56C0A5501D0B5B130098A6BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56C0A55B1D0B5B130098A6BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56C0A5381D0B5B130098A6BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56C0A5441D0B5B130098A6BE /* SecondViewController.swift in Sources */,
+				56C0A5401D0B5B130098A6BE /* AppDelegate.swift in Sources */,
+				56C0A5421D0B5B130098A6BE /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56C0A54E1D0B5B130098A6BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56C0A5571D0B5B130098A6BE /* EniAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56C0A5591D0B5B130098A6BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56C0A5621D0B5B130098A6BE /* EniAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		56C0A5541D0B5B130098A6BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56C0A53B1D0B5B130098A6BE /* EniApp */;
+			targetProxy = 56C0A5531D0B5B130098A6BE /* PBXContainerItemProxy */;
+		};
+		56C0A55F1D0B5B130098A6BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56C0A53B1D0B5B130098A6BE /* EniApp */;
+			targetProxy = 56C0A55E1D0B5B130098A6BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		56C0A5451D0B5B130098A6BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56C0A5461D0B5B130098A6BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		56C0A54A1D0B5B130098A6BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56C0A54B1D0B5B130098A6BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		56C0A5641D0B5B130098A6BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		56C0A5651D0B5B130098A6BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56C0A5671D0B5B130098A6BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EniApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.enihcem.EniApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		56C0A5681D0B5B130098A6BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EniApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.enihcem.EniApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		56C0A56A1D0B5B130098A6BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EniAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.enihcem.EniAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EniApp.app/EniApp";
+			};
+			name = Debug;
+		};
+		56C0A56B1D0B5B130098A6BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EniAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.enihcem.EniAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EniApp.app/EniApp";
+			};
+			name = Release;
+		};
+		56C0A56D1D0B5B130098A6BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EniAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.enihcem.EniAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EniApp;
+			};
+			name = Debug;
+		};
+		56C0A56E1D0B5B130098A6BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EniAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.enihcem.EniAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EniApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56C0A5371D0B5B130098A6BE /* Build configuration list for PBXProject "EniApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56C0A5641D0B5B130098A6BE /* Debug */,
+				56C0A5651D0B5B130098A6BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56C0A5661D0B5B130098A6BE /* Build configuration list for PBXNativeTarget "EniApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56C0A5671D0B5B130098A6BE /* Debug */,
+				56C0A5681D0B5B130098A6BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		56C0A5691D0B5B130098A6BE /* Build configuration list for PBXNativeTarget "EniAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56C0A56A1D0B5B130098A6BE /* Debug */,
+				56C0A56B1D0B5B130098A6BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		56C0A56C1D0B5B130098A6BE /* Build configuration list for PBXNativeTarget "EniAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56C0A56D1D0B5B130098A6BE /* Debug */,
+				56C0A56E1D0B5B130098A6BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56C0A5341D0B5B130098A6BE /* Project object */;
+}
